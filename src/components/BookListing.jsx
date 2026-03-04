@@ -4,12 +4,12 @@ const BookListing = ({book}) => {
   }
   return (
     <div className="book-preview">
-      <h2>Book Title: {book.title}</h2>
-      <p>Author: {book.author}</p>
-      <p>ISBN: {book.isbn}</p>
-      <p>Publisher: {book.publisher}</p>
-      <p>Genre: {book.genre}</p>
-      <p>Available: {book.availability.isAvailable ? "Yes" : "No"}</p>
+      <h2>Job Title: {book.title}</h2>
+      <p>Job Type: {book.author}</p>
+      <p>Job Description: {book.isbn}</p>
+      <p>Company Name: {book.publisher}</p>
+      <p>Contact Email: {book.genre}</p>
+      <p>Contact Phone: {book.availability.borrower}</p>
     </div>
   );
 };
